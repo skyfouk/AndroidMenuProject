@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_bg_in"
+    android:orientation="vertical">
+
+    <com.spring.sky.menuproject.view.MenuView
+        android:id="@+id/menuView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="44dp"
+        android:background="@color/while_color" />
+
+    <com.spring.sky.menuproject.view.MenuView
+        android:id="@+id/menuView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="55dp"
+        android:background="@color/while_color"
+        android:layout_marginTop="30dp" />
+
+</LinearLayout>
